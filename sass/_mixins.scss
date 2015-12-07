@@ -1,0 +1,25 @@
+@mixin bg($color,$textColor, $padding1 , $padding2 ) {
+    
+    background: $color;
+    color: $textColor;
+    padding: $padding1 $padding2;    
+}
+
+@mixin content($Font, $color){
+    
+    font-size: $Font;
+    color: $color;
+}
+
+@mixin equalSpace($num_of_cols, $spacing, $width:100%){
+    
+     width: ( $width - ( $spacing * ($num_of_cols - 1) ) ) / $num_of_cols;
+
+  margin-left:$spacing/2;
+}
+
+@mixin lineHeight($line-height){
+    
+    line-height:$line-height;
+    
+}

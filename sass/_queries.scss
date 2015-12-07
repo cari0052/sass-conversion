@@ -1,0 +1,10 @@
+@mixin media($size1, $size2){
+   
+
+@media all and (min-width:$size1) and (max-width:$size2){
+    
+    @content;
+
+    }
+}
+   

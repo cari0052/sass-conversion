@@ -1,1 +1,125 @@
-// main SASS file
+@import '_variables' ;
+@import '_queries' ;
+@import '_mixins' ;
+
+* {
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+:before {
+box-sizing:inherit;
+}
+
+html {
+font-size:16px;
+font-family:'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;
+line-height:1.6;
+}
+
+ul {
+list-style:none;
+background:#FFF;
+width:400px;
+display:inline-block;
+includemedia701px1401pxwidth:100%;
+max-width:900px;
+}
+
+.clearfix:after {
+display:table;
+clear:both;
+content:"";
+}
+
+h1,h2,h3,h4 {
+font-family:Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
+.bg-header {
+border-top:1em solid $dark-blue;
+border-bottom:1em solid $dark-blue;
+font-size:3.3em;
+line-height:1em;
+width:50%;
+padding:1em;
+h1width:100%;
+icolor:$light-brown;
+}
+
+span {
+color:$dark-brown;
+font-size:1.4em;
+width:50%;
+float:right;
+}
+
+.clearfix {
+text-align:center;
+}
+
+li {
+border:1px solid $light-grey;
+text-align:center;
+@includemedia701px1401pxdisplay:inline;
+padding:1em;
+}
+
+& a {
+text-decoration:none;
+}
+
+.bg-focal {
+display:block;
+focaltext-align:center;
+}
+
+h2 {
+display:inline-block;
+width:300px;
+}
+
+p {
+display:block;
+font-size:1em;
+padding-top:1.4em;
+}
+
+P {
+line-height:1.7em;
+font-size:1.3em;
+}
+
+.bg-content1 {
+padding-right:.5em;
+}
+
+h4, p{
+background:#228B22;
+}
+
+font-size:1em;
+width:100px;
+}
+
+.bg-footer {
+col-2:nth-child(1) {;
+width:50%;
+float:left;
+h4:not(:nth-child(1)){;
+display:none;
+}
+
+.col-2:nth-child(2) {
+width:50%;
+float:right;
+border-left:1px solid #000;
+padding-left:1em;
+h4:not(:nth-child(2)){;
+display:none;
+}
+
+h4:nth-child(2) {
+display:none;
+}
