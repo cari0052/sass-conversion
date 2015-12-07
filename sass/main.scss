@@ -12,6 +12,9 @@ padding:0;
 box-sizing:inherit;
 }
 
+h1, i{
+position: absolute;
+}
 html {
 font-size:16px;
 font-family:'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;
@@ -67,7 +70,7 @@ padding:1em;
 }
 
 & a {
-text-decoration:none;
+text-decoration:none; 
 }
 
 .bg-focal {
